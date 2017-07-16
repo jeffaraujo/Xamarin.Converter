@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Converter"
+             x:Class="Xamarin.Converter.MainPage">
+
+<StackLayout VerticalOptions="Center" HorizontalOptions="Fill">
+  
+  <Entry x:Name="txtValorOrigem" Placeholder="Valor em R$"></Entry>
+
+  <Entry x:Name="txtValorConvertido" Placeholder="Valor em US$"></Entry>
+  
+  <Button x:Name="btnConverter" Text="Converter em US$"></Button>
+</StackLayout>
+
+</ContentPage>
